@@ -1,0 +1,111 @@
+hash: f9c2329b22f3609e80dac09c2562441cc8d9ea3e3f1f4e6064bf911538c9ca7b
+updated: 2019-03-05T01:05:54.329664309+07:00
+imports:
+- name: github.com/dgrijalva/jwt-go
+  version: 3af4c746e1c248ee8491a3e0c6f7a9cd831e95f8
+- name: github.com/fsnotify/fsnotify
+  version: 4da3e2cfbabc9f751898f250b49f2439785783a1
+- name: github.com/go-ini/ini
+  version: c85607071cf08ca1adaf48319cd1aa322e81d8c1
+- name: github.com/go-playground/locales
+  version: f63010822830b6fe52288ee52d5a1151088ce039
+  subpackages:
+  - currency
+  - en
+- name: github.com/go-playground/universal-translator
+  version: b32fa301c9fe55953584134cb6853a13c87ec0a1
+- name: github.com/go-redis/cache
+  version: c58ada1e23a3b66593f81c70572c20a0bb805a90
+- name: github.com/go-redis/redis
+  version: 19c1c2272e00c1aaa903cf574c746cd449f9cd3c
+- name: github.com/go-resty/resty
+  version: cf81ed0a604d373be63b4c036c6b05c06520615f
+- name: github.com/go-sql-driver/mysql
+  version: 72cd26f257d44c1114970e19afddcd812016007e
+- name: github.com/hashicorp/hcl
+  version: 8f6b1344a92ff8877cf24a5de9177bf7d0a2a187
+  subpackages:
+  - hcl/ast
+  - hcl/parser
+  - hcl/scanner
+  - hcl/strconv
+  - hcl/token
+  - json/parser
+  - json/scanner
+  - json/token
+- name: github.com/jinzhu/gorm
+  version: 472c70caa40267cb89fd8facb07fe6454b578626
+  subpackages:
+  - dialects/mysql
+- name: github.com/jinzhu/inflection
+  version: 04140366298a54a039076d798123ffa108fff46c
+- name: github.com/labstack/echo
+  version: 38772c686c76b501f94bd6cd5b77f5842e93b559
+  subpackages:
+  - middleware
+- name: github.com/labstack/gommon
+  version: 34167a09256a4fcb5d26dd88d02b7b353d86838a
+  subpackages:
+  - bytes
+  - color
+  - log
+  - random
+- name: github.com/magiconair/properties
+  version: be5ece7dd465ab0765a9682137865547526d1dfb
+- name: github.com/mattn/go-colorable
+  version: efa589957cd060542a26d2dd7832fd6a6c6c3ade
+- name: github.com/mattn/go-isatty
+  version: 3fb116b820352b7f0c281308a4d6250c22d94e27
+- name: github.com/minio/minio-go
+  version: 4e0f567303d4cc90ceb055a451959fb9fc391fb9
+- name: github.com/mitchellh/mapstructure
+  version: 3536a929edddb9a5b34bd6861dc4a9647cb459fe
+- name: github.com/pelletier/go-toml
+  version: 9c1b4e331f1e3d98e72600677699fbe212cd6d16
+- name: github.com/spf13/afero
+  version: ee1bd8ee15a1306d1f9201acc41ef39cd9f99a1b
+  subpackages:
+  - mem
+- name: github.com/spf13/cast
+  version: acbeb36b902d72a7a4c18e8f3241075e7ab763e4
+- name: github.com/spf13/jwalterweatherman
+  version: 0efa5202c04663c757d84f90f5219c1250baf94f
+- name: github.com/spf13/pflag
+  version: e57e3eeb33f795204c1ca35f56c44f83227c6e66
+- name: github.com/spf13/viper
+  version: 25b30aa063fc18e48662b86996252eabdcf2f0c7
+  subpackages:
+  - bson
+- name: github.com/valyala/bytebufferpool
+  version: cdfbe9377474227bb42120c1e22fd4433e7f69bf
+- name: github.com/valyala/fasttemplate
+  version: dcecefd839c4193db0d35b88ec65b4c12d360ab0
+- name: golang.org/x/crypto
+  version: 505ab145d0a99da450461ae2c1a9f6cd10d1f447
+  subpackages:
+  - acme
+  - acme/autocert
+- name: golang.org/x/net
+  version: 278c6cf336eb9139d63479da09da0cfb40fdc4c8
+  subpackages:
+  - publicsuffix
+- name: golang.org/x/sys
+  version: 9a3f9b0469bbc6b8802087ae5c0af9f61502de01
+  subpackages:
+  - unix
+- name: golang.org/x/text
+  version: 79ab41e967c76b94c55d37134c51fc306609cffc
+  subpackages:
+  - transform
+  - unicode/norm
+- name: google.golang.org/appengine
+  version: e9657d882bb81064595ca3b56cbe2546bbabf7b1
+  subpackages:
+  - cloudsql
+- name: gopkg.in/go-playground/validator.v9
+  version: d529ee1b0f30352444f507cc6cdac96bfd12decc
+  subpackages:
+  - translations/en
+- name: gopkg.in/yaml.v2
+  version: eb3733d160e74a9c7e442f435eb3bea458e1d19f
+testImports: []

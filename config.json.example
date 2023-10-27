@@ -1,0 +1,30 @@
+{
+  "app": {
+    "name": "finance-api",
+    "debug": false,
+    "host": "127.0.0.1:3007",
+    "secret": "cd031f8f87498defcf1ed2a5f59408909275fda36aefdcfb3901cb1dac645840"
+  },
+  "database": {
+    "default": "mysql",
+    "mysql": {
+      "host": "127.0.0.1",
+      "database": "finance_db",
+      "user": "root",
+      "password": "masuK123!",
+      "port": 3306
+    }
+  },
+  "new_relic":{
+    "enable": false,
+    "enable_incoming_logging": true,
+    "enable_outgoing_logging": true,
+    "enable_logging_on_success_incoming": true,
+    "enable_logging_on_success_outgoing": true,
+    "name":"dev-finance-api",
+    "key":"f755a8efc68249ef304e166d1a739de2070eNRAL",
+    "disabled_monitoring_endpoint": [
+      "/api/v1/ping"
+    ]
+  }
+}
